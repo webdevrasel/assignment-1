@@ -40,7 +40,7 @@
 .header-btn {
     color: rgb(0, 106, 80);
     font-family: Fira Sans;
-    padding: 8px 25px;
+    padding: 10px 25px;
     border-radius: 5px;
     border: 1.5px solid rgb(0, 106, 80);
     background-color: rgba(245, 245, 220, 0);
@@ -82,3 +82,53 @@
     gap: 20px;
     /* Aligns social media icons in a row with equal spacing */
 }
+
+
+/* banner section style */
+
+.banner-section {
+    max-width: 1280px;
+    margin: 50px auto;
+    /* Sets a maximum width of 1280px for the banner section and centers it with auto margins.
+       Adds 50px margin at the top and bottom for spacing. */
+}
+
+.banner-container {
+    background-color: rgb(198, 228, 214);
+    padding: 80px 100px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Creates a container with a light green background and rounded corners.
+       Adds 80px padding at the top and bottom, and 100px on the sides.
+       Uses Flexbox to align child elements horizontally with space between them and centers them vertically. */
+}
+
+.banner-title-1 {
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    /* Styles the first banner title with a semi-transparent dark gray color, custom font,
+       medium font weight, and slightly smaller size for emphasis. Aligns the text to the left. */
+}
+
+.banner-title-2 {
+    margin-top: 20px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+    /* Styles the second banner title with a bold dark gray color, larger font size,
+       and heavy font weight for emphasis. Adds spacing above and below the title for better layout. */
+}
+
+
