@@ -54,7 +54,8 @@
 .header-btn:hover {
     background-color: rgb(0, 106, 80);
     color: white;
-    transition: 0.5s;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
     /* Adds hover effect with color change and smooth transition */
 }
 
@@ -193,7 +194,8 @@
 .vision-btn-1:hover{
     background-color: rgb(0, 106, 80);
     color: white;
-    transition: 0.5s;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
 }
 
 /* vision-box-2 */
@@ -219,7 +221,8 @@
 .vision-btn-2:hover{
     background-color: rgb(0, 106, 80);
     color: white;
-    transition: 0.5s;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
 }
 
 /* vision-box-3 */
@@ -245,5 +248,6 @@
 .vision-btn-3:hover{
     background-color: rgb(0, 106, 80);
     color: white;
-    transition: 0.5s;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
 }
