@@ -101,7 +101,7 @@
     justify-content: space-between;
     align-items: center;
     /* Creates a container with a light green background and rounded corners.
-       Adds 80px padding at the top and bottom, and 100px on the sides.
+    Adds 80px padding at the top and bottom, and 100px on the sides.
        Uses Flexbox to align child elements horizontally with space between them and centers them vertically. */
 }
 
@@ -131,4 +131,119 @@
        and heavy font weight for emphasis. Adds spacing above and below the title for better layout. */
 }
 
+/* The Vision of Future section style */
+.vision-container{
+    max-width: 1280px;
+    margin: 80px auto;
 
+}
+.vision-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.vision-p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.vision-box-area{
+    padding-top: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.vision-box-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 20px 0px;
+}
+.vision-box-1{
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 40px;
+    border-radius: 10px;
+}
+.vision-btn-1{
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    padding: 8px 22px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: rgb(84, 144, 245);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    border: none;
+}
+.vision-btn-1:hover{
+    background-color: rgb(0, 106, 80);
+    color: white;
+    transition: 0.5s;
+}
+
+/* vision-box-2 */
+
+.vision-box-2{
+    background-color: rgb(198, 228, 214);
+    padding: 40px;
+    border-radius: 10px;
+}
+.vision-btn-2{
+    color: rgb(0, 0, 0);
+    font-family: Fira Sans;
+    padding: 8px 22px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: rgb(240, 255, 164);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    border: none;
+}
+.vision-btn-2:hover{
+    background-color: rgb(0, 106, 80);
+    color: white;
+    transition: 0.5s;
+}
+
+/* vision-box-3 */
+
+.vision-box-3{
+    background-color: rgb(247, 235, 207);
+    padding: 40px;
+    border-radius: 10px;
+}
+.vision-btn-3{
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    padding: 8px 22px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: rgb(52, 52, 52);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    border: none;
+}
+.vision-btn-3:hover{
+    background-color: rgb(0, 106, 80);
+    color: white;
+    transition: 0.5s;
+}
