@@ -361,3 +361,33 @@
     display: flex;
     justify-content: center;
 }
+
+/* Start Quote Section style */
+.quote-container{
+    border: 1px solid rgba(0, 0, 0, 0.192);
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #F0F0F0;
+    margin-top: 20px;
+}
+
+.quote-title{
+    margin-top: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.quote-p {
+    margin-top:5px
+}
+.quote-content{
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+}
+.quote-pp {
+    padding-top: 28px;
+}
