@@ -68,9 +68,9 @@
     line-height: 38px;
     letter-spacing: 0%;
     text-align: center;
+    padding-top: 40px;
     /* Styles the footer title with custom font, color, and centered text */
 }
-
 .divider {
     border-top: 1px solid #00000069;
     margin: 30px 0px;
@@ -445,4 +445,21 @@
 }
 .form-b:hover{
     background-color: rgb(0, 106, 80);
+}
+
+/* <!-- video-section --> */
+.video-section{
+    background-image: url(../assets/bd-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.video-container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 100px;
+}
+.bgcolor{
+    background-color: rgba(255, 255, 255, 0.676);
 }
